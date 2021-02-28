@@ -31,7 +31,7 @@ elif operacao == 3:
     comprimento = int(input("Digite o comprimento: "))
     precoM2 = float(input("Digite o preco do metro quadrado: "))
     precoTerreno = precoDoTerreno(largura, comprimento, precoM2)
-    ValorImposto = precoTerreno*0.1
+    ValorImposto = precoTerreno*0.2
     print(f"O valor do imposto é: ", ValorImposto)
 '''
 
